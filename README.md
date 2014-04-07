@@ -27,6 +27,7 @@ sudo apt-get install unzip
 sudo apt-get install curl
 sudo apt-get install openssl
 sudo apt-get install php5-mcrypt
+sudo apt-get install php5-json
 
 
 Instalando o git
@@ -45,6 +46,7 @@ cat ~/.ssh/id_rsa.pub
 Instalando o composer
 
 curl -sS https://getcomposer.org/installer | php
+
 sudo mv composer.phar /usr/local/bin/composer
 
 
