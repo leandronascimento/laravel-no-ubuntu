@@ -4,7 +4,7 @@ Laravel-no-Ubuntu
 Passos Instalação Laravel no Ubuntu
 
 
-Preparando o ubunto para receber as instalações
+Preparando o ubuntu para receber as instalações
 
 sudo apt-get update
 sudo apt-get upgrade
