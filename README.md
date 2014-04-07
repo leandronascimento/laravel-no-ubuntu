@@ -82,3 +82,15 @@ DocumentRoot /var/www/public
 Instalando o Laravel
 
 git clone git@github.com:laravel/laravel.git
+
+Depos de clonar o projeto 
+
+composer install
+
+Dê permissão na pasta storage
+
+sudo chmod -R 777 app/storage
+
+reinicie o servidor
+
+sudo service apache2 restart
