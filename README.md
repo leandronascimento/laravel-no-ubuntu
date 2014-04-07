@@ -7,27 +7,37 @@ Passos Instalação Laravel no Ubuntu
 Preparando o ubuntu para receber as instalações
 
 sudo apt-get update
+
 sudo apt-get upgrade
 
 Instalando o Apache, Php e o Mysql
 
 sudo apt-get install apache2
+
 sudo apt-get install php5
+
 sudo apt-get install mysql-server
+
 sudo apt-get install php5-mysql
 
 Verificando as instalações
 
 php -v
+
 apache2 -v
 
 Instalando as extensões necessarias
 
 sudo apt-get install unzip
+
 sudo apt-get install curl
+
 sudo apt-get install openssl
+
 sudo apt-get install php5-mcrypt
+
 sudo apt-get install php5-json
+
 
 
 Instalando o git
@@ -71,11 +81,13 @@ Agora, procure por "AllowOverride None" (que deverar aparecer DUAS vezes) e mude
 Procure por essas duas linhas
 
 DocumentRoot /var/www
+
 <Directory /var/www>
 
 Altere para
 
 DocumentRoot /var/www/public
+
 <Directory /var/www/public>
 
 
