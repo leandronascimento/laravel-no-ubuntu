@@ -34,10 +34,19 @@ sudo apt-get install curl
 
 sudo apt-get install openssl
 
-sudo apt-get install php5-mcrypt
-
 sudo apt-get install php5-json
 
+Instalando as extensões mcrypt 
+
+sudo apt-get install php5-mcrypt
+
+se nao funcionar tente
+
+sudo ln -s /etc/php5/conf.d/mcrypt.ini /etc/php5/mods-available
+
+sudo php5enmod mcrypt
+
+sudo service apache2 restart
 
 
 Instalando o git
