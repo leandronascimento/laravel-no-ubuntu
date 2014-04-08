@@ -115,3 +115,8 @@ sudo chmod -R 777 app/storage
 reinicie o servidor
 
 sudo service apache2 restart
+
+Instale o mysql workbench
+
+apt-get install mysql-workbench mysql-workbench-data 
+
