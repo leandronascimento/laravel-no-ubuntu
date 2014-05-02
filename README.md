@@ -102,7 +102,7 @@ DocumentRoot /var/www/public
 
 Instalando o Laravel
 
-git clone git@github.com:laravel/laravel.git
+git clone https://github.com/laravel/laravel.git
 
 Depos de clonar o projeto 
 
