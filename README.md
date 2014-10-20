@@ -128,3 +128,10 @@ sudo apt-get update
 
 sudo apt-get install sublime-text-installer
 
+Criando uma cron
+
+etc/cron.d
+
+*/1 * * * *  root php /var/www/laravel/artisan foo >> /tmp/cron.log
+
+
