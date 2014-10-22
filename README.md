@@ -26,6 +26,8 @@ php -v
 
 apache2 -v
 
+mysql --version
+
 Instalando as extensões necessarias
 
 sudo apt-get install unzip
