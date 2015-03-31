@@ -53,7 +53,7 @@ sudo service apache2 restart
 
 Instalando o git
 
-$ apt-get install git
+apt-get install git
 
 Gerando as chaves do git
 
